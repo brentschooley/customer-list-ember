@@ -1,18 +1,1 @@
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Location</th>
-      <th>Member Since</th>
-    </tr>
-  </thead>
-  <tbody>
-    {{#each model as |customer|}}
-      <tr>
-        <td>{{customer.name}}</td>
-        <td>{{customer.location}}</td>
-        <td>{{moment-format customer.signupDate "MM/DD/YYYY"}}</td>
-      </tr>
-    {{/each}}
-  </tbody>
-</table>
+{{customer-list customers=model}}
