@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'customerlist',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://customerlisttwilio.firebaseio.com/',
+    firebase: 'https://YOUR-FIREBASE-URL.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
