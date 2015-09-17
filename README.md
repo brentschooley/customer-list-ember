@@ -1,7 +1,8 @@
-# Customerlist
+# Ember Component Sample App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application is a sample for using Ember components. It uses Ember 2.0 with Firebase to display a list of customers for a fictitious Bacon Soda Shop.
+
+![Bacon soda in the mail!](http://cl.ly/image/322h143i2S40/baconsodamail.jpg)
 
 ## Prerequisites
 
@@ -50,4 +51,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
